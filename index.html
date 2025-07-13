@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Malla Curricular</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Malla Curricular - Economía UDELAR</h1>
+
+  <div class="materia" data-id="micro" onclick="toggleMateria(this)">
+    Introducción a la Microeconomía
+  </div>
+
+  <div class="materia bloqueada" data-id="macro1" data-prereqs="micro" onclick="toggleMateria(this)">
+    Macroeconomía 1
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
